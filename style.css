@@ -28,6 +28,11 @@ body{
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: auto;
 }
 .main-container{
 	border: 0.1rem solid var(--mainWhite);
