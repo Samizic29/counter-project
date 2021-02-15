@@ -63,3 +63,8 @@ body{
 .prevBtn:hover, .nextBtn:hover{
 	background: var(--lightBlue);
 }
+
+@media (max-width:400px){
+	.main-container{
+		padding: 3rem;
+}
